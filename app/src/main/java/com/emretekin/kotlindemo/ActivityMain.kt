@@ -33,6 +33,8 @@ class ActivityMain : AppCompatActivity() {
         breakContineSamples()
         listAndMapSamples()
         trycatchSamples()
+        initFunc();
+        afterValues(17)
 
         plusNumbers(10, 15)
         plusNumbersSingleLine(10, 15)
@@ -215,10 +217,43 @@ class ActivityMain : AppCompatActivity() {
 
     }
 
-    fun sum(num1: Int, num2:Int): Int{
-
+    fun plus(num1: Int, num2: Int): Int {
         return num1 + num2
     }
+
+    fun minus(num1: Int, num2: Int): Int = num1 - num2
+
+    fun times(num1: Int, num2: Int): Int = num1 * num2
+
+    fun divide(num1: Int, num2: Int): Int = num1 / num2
+
+    fun afterValues(num: Int): Pair<Int, Int> { // Pair tipinde eleman dondurecek
+        return Pair(num + 1, num + 2)
+    }
+
+    fun factorialCalculate(num: Int){
+        var factorial = 1
+        for (i in 1.. num){
+            factorial = factorial * i
+        }
+    }
+
+    fun initFunc() {
+        var totalP = plus(2, 9);
+        var totalM = minus(15, 5);
+        var totalT = times(4, 4);
+        var totalD = divide(10, 2);
+
+
+        println(totalP)
+        println(totalM)
+        println(totalT)
+        println(totalD)
+
+        var (numberOne, numberTwo) = afterValues(17) // Output - numberOne = 18  numberTwo = 19
+        factorialCalculate(4)
+    }
+
 
 
 }
