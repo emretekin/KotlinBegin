@@ -35,13 +35,13 @@ class ActivityMain : AppCompatActivity() {
     fun createViews() {
         tvToolbar = findViewById(R.id.tvToolbar) as TextView
         btSimple = findViewById(R.id.btSimple) as Button
-        btRecursive = findViewById(R.id.btSimple) as Button
+        btRecursive = findViewById(R.id.btRecursive) as Button
 
     }
 
     fun setListeners() {
         btSimple.setOnClickListener { startActivity(Intent(this, ActivitySimple::class.java)) }
-        btRecursive.setOnClickListener { startActivity(Intent(this, ActivitySimple::class.java)) }
+        btRecursive.setOnClickListener { startActivity(Intent(this, ActivityRecursive::class.java)) }
     }
 
 }
