@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActivitySimple" />
-        <activity android:name=".ActivityRecursive"></activity>
+        <activity android:name=".ActivityRecursive" />
+        <activity android:name=".ActivityExtension"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.emretekin.kotlindemo;
+package com.emretekin.kotlindemo.Utils;
 
 /**
  * Created by emretekin on 21/06/17.

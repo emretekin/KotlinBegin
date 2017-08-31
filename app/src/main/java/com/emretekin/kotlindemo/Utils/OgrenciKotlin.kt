@@ -1,4 +1,4 @@
-package com.emretekin.kotlindemo
+package com.emretekin.kotlindemo.Utils
 
 /**
  * Created by emretekin on 21/06/17.
@@ -6,4 +6,5 @@ package com.emretekin.kotlindemo
 
 class OgrenciKotlin {
     var name: String? = null
+    var ability: String? = null
 }

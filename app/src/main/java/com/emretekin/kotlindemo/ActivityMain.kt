@@ -16,6 +16,7 @@ class ActivityMain : AppCompatActivity() {
     private lateinit var tvToolbar: TextView
     private lateinit var btSimple: Button
     private lateinit var btRecursive: Button
+    private lateinit var btExtansion: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,12 +37,14 @@ class ActivityMain : AppCompatActivity() {
         tvToolbar = findViewById(R.id.tvToolbar) as TextView
         btSimple = findViewById(R.id.btSimple) as Button
         btRecursive = findViewById(R.id.btRecursive) as Button
+        btExtansion = findViewById(R.id.btExtansion) as Button
 
     }
 
     fun setListeners() {
         btSimple.setOnClickListener { startActivity(Intent(this, ActivitySimple::class.java)) }
         btRecursive.setOnClickListener { startActivity(Intent(this, ActivityRecursive::class.java)) }
+        btExtansion.setOnClickListener { startActivity(Intent(this, ActivityExtension::class.java)) }
     }
 
 }

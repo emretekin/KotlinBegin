@@ -7,6 +7,8 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.TextView
 import android.widget.Toast
+import com.emretekin.kotlindemo.Utils.OgrenciJava
+import com.emretekin.kotlindemo.Utils.OgrenciKotlin
 import java.util.*
 
 class ActivitySimple : AppCompatActivity() {
