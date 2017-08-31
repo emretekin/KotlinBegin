@@ -17,6 +17,7 @@ class ActivityMain : AppCompatActivity() {
     private lateinit var btSimple: Button
     private lateinit var btRecursive: Button
     private lateinit var btExtansion: Button
+    private lateinit var btOperatorOverloading: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,6 +39,7 @@ class ActivityMain : AppCompatActivity() {
         btSimple = findViewById(R.id.btSimple) as Button
         btRecursive = findViewById(R.id.btRecursive) as Button
         btExtansion = findViewById(R.id.btExtansion) as Button
+        btOperatorOverloading = findViewById(R.id.btOperatorOverloading) as Button
 
     }
 
@@ -45,6 +47,7 @@ class ActivityMain : AppCompatActivity() {
         btSimple.setOnClickListener { startActivity(Intent(this, ActivitySimple::class.java)) }
         btRecursive.setOnClickListener { startActivity(Intent(this, ActivityRecursive::class.java)) }
         btExtansion.setOnClickListener { startActivity(Intent(this, ActivityExtension::class.java)) }
+        btOperatorOverloading.setOnClickListener { startActivity(Intent(this, ActivityOperatorOverloading::class.java)) }
     }
 
 }
