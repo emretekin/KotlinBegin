@@ -19,7 +19,8 @@
         <activity android:name=".ActivitySimple" />
         <activity android:name=".ActivityRecursive" />
         <activity android:name=".ActivityExtension" />
-        <activity android:name=".ActivityOperatorOverloading"></activity>
+        <activity android:name=".ActivityOperatorOverloading" />
+        <activity android:name=".ActivityInterface"></activity>
     </application>
 
 </manifest>
