@@ -56,4 +56,14 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="48dp" />
 
+    <Button
+        android:id="@+id/btListview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Listview Example"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="48dp" />
+
 </LinearLayout>

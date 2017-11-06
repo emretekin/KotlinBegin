@@ -20,7 +20,8 @@
         <activity android:name=".ActivityRecursive" />
         <activity android:name=".ActivityExtension" />
         <activity android:name=".ActivityOperatorOverloading" />
-        <activity android:name=".ActivityInterface"></activity>
+        <activity android:name=".ActivityInterface" />
+        <activity android:name=".ActivityListview"/>
     </application>
 
 </manifest>
