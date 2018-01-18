@@ -25,7 +25,6 @@ class ActivityListview : AppCompatActivity() {
         createToolbar()
         mListview = findViewById(R.id.listView) as ListView
         mListview.adapter = ActivityListview.MyAdapter(this)
-
     }
 
     private class MyAdapter(context: Context) : BaseAdapter() {
