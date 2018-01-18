@@ -9,7 +9,6 @@ import android.widget.TextView
 
 class ActivityMain : AppCompatActivity() {
 
-    private lateinit var tvToolbar: TextView
     private lateinit var btSimple: Button;
     private lateinit var btRecursive: Button
     private lateinit var btExtansion: Button
@@ -29,11 +28,9 @@ class ActivityMain : AppCompatActivity() {
     fun createToolbar() {
         val toolbar = findViewById(R.id.toolbar) as Toolbar
         setSupportActionBar(toolbar)
-        tvToolbar.setText("Kotlin 101")
     }
 
     fun createViews() {
-        tvToolbar = findViewById(R.id.tvToolbar) as TextView
         btSimple = findViewById(R.id.btSimple) as Button
         btRecursive = findViewById(R.id.btRecursive) as Button
         btExtansion = findViewById(R.id.btExtansion) as Button
